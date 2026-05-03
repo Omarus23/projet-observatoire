@@ -1,0 +1,25 @@
+@"
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Données (volumineuses, regénérables)
+data/raw/
+data/processed/
+exports/
+logs/
+
+# Secrets
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 -FilePath .gitignore
